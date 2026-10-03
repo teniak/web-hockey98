@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Legal notice — HOCKEY 98</title>
+<meta name="robots" content="noindex, follow"/>
+<style>
+@font-face{font-family:'Bebas Neue';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/bebas-neue-latin-400-normal.woff2) format('woff2');}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/oswald-latin-300-normal.woff2) format('woff2');}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/oswald-latin-400-normal.woff2) format('woff2');}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/oswald-latin-600-normal.woff2) format('woff2');}
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--black:#080808;--card:#111;--gold:#c9943a;--gold-light:#e0b45a;--cream:#ede8da;--muted:#666;--muted2:#888;--text:#a9a59b;--border:#1e1e1e;--border2:#2a2a2a;}
+body{background:var(--black);color:var(--cream);font-family:'Oswald',sans-serif;overflow-x:hidden;}
+body:not(.lang-fr) .fr{display:none !important;}
+body.lang-fr .en{display:none !important;}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:.8rem 2.5rem;background:rgba(8,8,8,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:4px;color:var(--cream);text-decoration:none;}
+.nav-logo span{color:var(--gold);}
+.nav-right{display:flex;align-items:center;gap:1.5rem;}
+.nav-link{font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s;}
+.nav-link:hover{color:var(--gold);}
+.lang-toggle{display:flex;border:1px solid var(--border2);border-radius:2px;overflow:hidden;}
+.lang-btn{background:transparent;border:none;cursor:pointer;padding:.32rem .75rem;font-size:.7rem;letter-spacing:2px;font-family:'Oswald',sans-serif;text-transform:uppercase;color:var(--muted);transition:background .2s,color .2s;}
+.lang-btn.active{background:var(--gold);color:var(--black);}
+.lang-btn:not(.active):hover{color:var(--gold);}
+
+.legal{max-width:760px;margin:0 auto;padding:8rem 2rem 3rem;}
+.eyebrow{font-size:.65rem;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem;}
+h1{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(2.4rem,7vw,4rem);letter-spacing:3px;line-height:1;color:var(--cream);}
+.updated{margin-top:1rem;font-size:.68rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+section{margin-top:3.2rem;padding-top:2.2rem;border-top:1px solid var(--border);}
+h2{display:flex;align-items:baseline;gap:.9rem;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.7rem;letter-spacing:2px;color:var(--cream);margin-bottom:1.1rem;}
+h2 .num{font-size:.95rem;color:var(--gold);letter-spacing:2px;}
+h3{font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:400;margin:1.6rem 0 .6rem;}
+p,li{font-size:.92rem;font-weight:300;line-height:1.85;color:var(--text);}
+p+p{margin-top:.8rem;}
+ul{list-style:none;margin-top:.6rem;}
+li{position:relative;padding-left:1.2rem;}
+li::before{content:'';position:absolute;left:0;top:.8em;width:5px;height:1px;background:var(--gold);}
+strong{color:var(--cream);font-weight:400;}
+a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(201,148,58,.35);transition:border-color .2s,color .2s;}
+a:hover{color:var(--gold-light);border-color:var(--gold-light);}
+.card{background:var(--card);border:1px solid var(--border2);border-radius:4px;padding:1.4rem 1.6rem;margin-top:.4rem;}
+.card p{line-height:1.75;}
+.providers{display:grid;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-top:.6rem;}
+.provider{background:var(--card);padding:1.2rem 1.4rem;}
+.provider-role{font-size:.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);}
+.provider-name{font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:2px;color:var(--cream);margin:.25rem 0 .3rem;}
+.provider p{font-size:.84rem;line-height:1.7;}
+
+footer{border-top:1px solid var(--border);padding:2.2rem 2.5rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:4rem;}
+.footer-logo{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:4px;color:var(--cream);}
+.footer-logo span{color:var(--gold);}
+.footer-right{font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+.footer-right a{color:var(--muted2);border-color:var(--border2);}
+nav a,nav a:hover{border-bottom:none;}
+nav .nav-logo:hover{color:var(--cream);}
+
+@media (max-width:640px){
+  nav{padding:.8rem 1rem;}
+  .nav-right{gap:1.1rem;}
+  .legal{padding:6.5rem 1.1rem 2rem;}
+  .card,.provider{padding:1.1rem 1.1rem;}
+  footer{padding:2rem 1.1rem;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">HOCKEY <span>98</span></a>
+  <div class="nav-right">
+    <a class="nav-link" href="index.html"><span class="en">Home</span><span class="fr">Accueil</span></a>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('en')" id="btn-en">EN</button>
+      <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ FRANÇAIS ============ -->
+<main class="legal fr" lang="fr">
+  <p class="eyebrow">Informations légales</p>
+  <h1>Mentions légales &amp; protection des données</h1>
+  <p class="updated">Dernière mise à jour : 3 octobre 2026</p>
+
+  <section>
+    <h2><span class="num">01</span>Éditeur du site</h2>
+    <div class="card">
+      <p><strong>Hockey 98 Damien Walther</strong><br>Entreprise individuelle<br>1217 Meyrin, Genève, Suisse</p>
+      <p>Responsable : Damien Walther<br>Courriel : <span class="mail" data-u="damien.walther" data-d="gmail.com">damien.walther (at) gmail.com</span></p>
+    </div>
+    <p style="margin-top:1rem">Ces informations sont fournies conformément à l'art. 3, al. 1, let. s, de la loi fédérale contre la concurrence déloyale (LCD).</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Hébergement &amp; prestataires techniques</h2>
+    <div class="providers">
+      <div class="provider">
+        <span class="provider-role">Nom de domaine</span>
+        <div class="provider-name">Infomaniak Network SA</div>
+        <p>Rue Eugène-Marziano 25, 1227 Les Acacias (Genève), Suisse. Bureau d'enregistrement des domaines hockey98.com et hockey98.ch.</p>
+      </div>
+      <div class="provider">
+        <span class="provider-role">DNS &amp; distribution</span>
+        <div class="provider-name">Cloudflare, Inc.</div>
+        <p>101 Townsend St., San Francisco, CA 94107, États-Unis. Gestion des DNS, acheminement sécurisé (HTTPS) et protection du site contre les abus.</p>
+      </div>
+      <div class="provider">
+        <span class="provider-role">Hébergement</span>
+        <div class="provider-name">GitHub, Inc. — GitHub Pages</div>
+        <p>88 Colin P. Kelly Jr. St., San Francisco, CA 94107, États-Unis. Hébergement des fichiers du site.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Protection des données</h2>
+    <p>La présente déclaration informe sur le traitement des données personnelles lors de la visite de ce site, conformément à la loi fédérale sur la protection des données (LPD) et, pour les visiteurs situés dans l'Union européenne, au règlement général sur la protection des données (RGPD).</p>
+
+    <h3>Responsable du traitement</h3>
+    <p>Hockey 98 Damien Walther, 1217 Meyrin, Suisse — <span class="mail" data-u="damien.walther" data-d="gmail.com">damien.walther (at) gmail.com</span>.</p>
+
+    <h3>Données traitées</h3>
+    <p>Ce site est volontairement sobre :</p>
+    <ul>
+      <li>aucun cookie, aucun outil de mesure d'audience ou de suivi publicitaire ;</li>
+      <li>aucun formulaire, aucun compte utilisateur ;</li>
+      <li>les polices de caractères et images sont servies depuis le site lui-même, sans appel à des services tiers.</li>
+    </ul>
+    <p>Lors de chaque visite, nos prestataires techniques traitent automatiquement les données de connexion nécessaires à l'affichage et à la sécurité du site : adresse IP, date et heure, page demandée, navigateur et système d'exploitation. Cloudflare les traite pour acheminer et protéger le trafic ; GitHub les journalise à des fins de sécurité. Nous n'avons pas accès à ces journaux à des fins d'analyse et ne cherchons pas à identifier les visiteurs.</p>
+    <p>Le choix de langue (FR/EN) est mémorisé uniquement dans votre navigateur (stockage local) pour vous éviter de le refaire ; il ne nous est jamais transmis.</p>
+
+    <h3>Finalités et bases juridiques</h3>
+    <p>Ces traitements servent exclusivement à rendre le site accessible, stable et sûr. Au sens du RGPD, ils reposent sur notre intérêt légitime à exploiter un site fonctionnel et protégé (art. 6, par. 1, let. f RGPD).</p>
+
+    <h3>Communication à l'étranger</h3>
+    <p>Cloudflare et GitHub sont établis aux États-Unis. Tous deux sont certifiés selon le Swiss-U.S. Data Privacy Framework et l'EU-U.S. Data Privacy Framework, reconnus comme garantissant un niveau de protection adéquat par le Conseil fédéral suisse et par la Commission européenne.</p>
+
+    <h3>Durée de conservation</h3>
+    <p>Les données de connexion sont conservées par les prestataires selon leurs propres règles, pour la durée nécessaire à la sécurité et au fonctionnement de leurs services. Voir les déclarations de <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare</a> et de <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <h3>Vos droits</h3>
+    <p>Vous pouvez à tout moment demander l'accès à vos données, leur rectification ou leur effacement, vous opposer à leur traitement ou en demander la limitation, ainsi que la portabilité lorsqu'elle s'applique. Il suffit d'écrire à l'adresse ci-dessus.</p>
+    <p>Vous pouvez également saisir le Préposé fédéral à la protection des données et à la transparence (<a href="https://www.edoeb.admin.ch/fr" target="_blank" rel="noopener">PFPDT</a>) ou, si vous résidez dans l'Union européenne, l'autorité de protection des données de votre pays.</p>
+
+    <h3>Liens externes</h3>
+    <p>Le site renvoie vers notre compte Instagram par un simple lien, sans intégration de contenu. En le suivant, vous quittez ce site et la politique de confidentialité de Meta s'applique.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Propriété intellectuelle</h2>
+    <p>Le nom Hockey 98, le logo et l'ensemble des designs et illustrations présentés sur ce site sont des créations originales dessinées à la main. Ils sont protégés par le droit d'auteur. Toute reproduction, modification ou utilisation, totale ou partielle, sans autorisation écrite préalable est interdite.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Responsabilité</h2>
+    <p>Les informations publiées sur ce site sont fournies avec soin mais sans garantie d'exactitude, d'exhaustivité ou d'actualité. Hockey 98 décline toute responsabilité pour les dommages résultant de l'accès au site ou de son utilisation, dans les limites permises par la loi, ainsi que pour le contenu des sites externes vers lesquels il renvoie.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Droit applicable</h2>
+    <p>Le présent site et ces mentions sont soumis au droit suisse. Le for est à Genève, sous réserve des dispositions impératives protégeant les consommateurs.</p>
+  </section>
+</main>
+
+<!-- ============ ENGLISH ============ -->
+<main class="legal en" lang="en">
+  <p class="eyebrow">Legal information</p>
+  <h1>Legal notice &amp; privacy policy</h1>
+  <p class="updated">Last updated: October 3, 2026</p>
+
+  <section>
+    <h2><span class="num">01</span>Site publisher</h2>
+    <div class="card">
+      <p><strong>Hockey 98 Damien Walther</strong><br>Sole proprietorship (entreprise individuelle)<br>1217 Meyrin, Geneva, Switzerland</p>
+      <p>Responsible person: Damien Walther<br>Email: <span class="mail" data-u="damien.walther" data-d="gmail.com">damien.walther (at) gmail.com</span></p>
+    </div>
+    <p style="margin-top:1rem">This information is provided in accordance with Art. 3 para. 1 let. s of the Swiss Federal Act against Unfair Competition (UCA).</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Hosting &amp; technical providers</h2>
+    <div class="providers">
+      <div class="provider">
+        <span class="provider-role">Domain name</span>
+        <div class="provider-name">Infomaniak Network SA</div>
+        <p>Rue Eugène-Marziano 25, 1227 Les Acacias (Geneva), Switzerland. Registrar for the hockey98.com and hockey98.ch domains.</p>
+      </div>
+      <div class="provider">
+        <span class="provider-role">DNS &amp; delivery</span>
+        <div class="provider-name">Cloudflare, Inc.</div>
+        <p>101 Townsend St., San Francisco, CA 94107, USA. DNS management, secure delivery (HTTPS) and protection of the site against abuse.</p>
+      </div>
+      <div class="provider">
+        <span class="provider-role">Hosting</span>
+        <div class="provider-name">GitHub, Inc. — GitHub Pages</div>
+        <p>88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Hosting of the site's files.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Privacy policy</h2>
+    <p>This policy explains how personal data is processed when you visit this site, in accordance with the Swiss Federal Act on Data Protection (FADP) and, for visitors located in the European Union, the General Data Protection Regulation (GDPR).</p>
+
+    <h3>Controller</h3>
+    <p>Hockey 98 Damien Walther, 1217 Meyrin, Switzerland — <span class="mail" data-u="damien.walther" data-d="gmail.com">damien.walther (at) gmail.com</span>.</p>
+
+    <h3>Data processed</h3>
+    <p>This site is deliberately minimal:</p>
+    <ul>
+      <li>no cookies, no analytics, no advertising trackers;</li>
+      <li>no forms, no user accounts;</li>
+      <li>fonts and images are served from the site itself, with no calls to third-party services.</li>
+    </ul>
+    <p>On every visit, our technical providers automatically process the connection data needed to display and secure the site: IP address, date and time, requested page, browser and operating system. Cloudflare processes it to route and protect traffic; GitHub logs it for security purposes. We do not use these logs for analysis and make no attempt to identify visitors.</p>
+    <p>Your language choice (EN/FR) is stored only in your browser (local storage) so you don't have to set it again; it is never sent to us.</p>
+
+    <h3>Purposes and legal basis</h3>
+    <p>This processing serves solely to keep the site available, stable and secure. Under the GDPR, it is based on our legitimate interest in operating a functional and protected website (Art. 6(1)(f) GDPR).</p>
+
+    <h3>Transfers abroad</h3>
+    <p>Cloudflare and GitHub are based in the United States. Both are certified under the Swiss-U.S. Data Privacy Framework and the EU-U.S. Data Privacy Framework, which the Swiss Federal Council and the European Commission recognise as ensuring an adequate level of protection.</p>
+
+    <h3>Retention</h3>
+    <p>Connection data is retained by the providers under their own rules, for as long as needed for the security and operation of their services. See the privacy statements of <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <h3>Your rights</h3>
+    <p>You may at any time request access to, correction or deletion of your data, object to or request restriction of its processing, and request data portability where applicable. Simply write to the address above.</p>
+    <p>You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (<a href="https://www.edoeb.admin.ch/en" target="_blank" rel="noopener">FDPIC</a>) or, if you live in the European Union, with the data protection authority of your country.</p>
+
+    <h3>External links</h3>
+    <p>The site links to our Instagram account with a plain link; no content is embedded. By following it, you leave this site and Meta's privacy policy applies.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Intellectual property</h2>
+    <p>The Hockey 98 name, the logo and all designs and illustrations shown on this site are original hand-drawn works protected by copyright. Any reproduction, modification or use, in whole or in part, without prior written permission is prohibited.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Liability</h2>
+    <p>The information on this site is provided with care but without any guarantee of accuracy, completeness or timeliness. To the extent permitted by law, Hockey 98 accepts no liability for any damage arising from access to or use of the site, nor for the content of external sites it links to.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Governing law</h2>
+    <p>This site and this notice are governed by Swiss law. The place of jurisdiction is Geneva, subject to mandatory consumer protection provisions.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-logo">HOCKEY <span>98</span></div>
+  <div class="footer-right">© 2026 Hockey 98 · <a href="index.html"><span class="en">Back to home</span><span class="fr">Retour à l'accueil</span></a></div>
+</footer>
+
+<script>
+function setLang(l){
+  try{localStorage.setItem('h98-lang',l);}catch(e){}
+  document.documentElement.lang=l;
+  document.title=l==='fr'?'Mentions légales — HOCKEY 98':'Legal notice — HOCKEY 98';
+  document.body.className=l==='fr'?'lang-fr':'';
+  document.getElementById('btn-en').className='lang-btn'+(l==='en'?' active':'');
+  document.getElementById('btn-fr').className='lang-btn'+(l==='fr'?' active':'');
+}
+(function(){var l=null;try{l=localStorage.getItem('h98-lang');}catch(e){}
+if(!l){l=(navigator.language||'en').toLowerCase().indexOf('fr')===0?'fr':'en';}
+if(l==='fr')setLang('fr');})();
+// Anti-spam: the address is assembled in the browser
+document.querySelectorAll('.mail').forEach(function(el){
+  var a=el.getAttribute('data-u')+'@'+el.getAttribute('data-d');
+  var link=document.createElement('a');link.href='mailto:'+a;link.textContent=a;
+  el.textContent='';el.appendChild(link);
+});
+</script>
+</body>
+</html>
